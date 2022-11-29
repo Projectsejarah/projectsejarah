@@ -1,0 +1,89 @@
+body {
+    background-image: url("../Tebak\ gambar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+body.soal {
+    background-image: url("..//soal-background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+}
+
+p {
+    font-size: 50px;
+    display: inline-flex;
+    height: 70px;
+    width: 200px;
+    margin: 0;
+    margin-left: 90%;
+    margin-top: 70px;
+}
+
+.title {
+    margin-left: 30px;
+    margin-top: 70px;
+    position: fixed;
+    font-size: 3rem; 
+}
+
+.title-score {
+    margin-left: 30px;
+    margin-top: 120px;
+    position: fixed;
+    font-size: 3rem; 
+}
+
+.score-akhir {
+    text-align: center; 
+    margin-top: 15%; 
+    font-size: 2rem;
+}
+
+.btn {
+    background-color: #F7BD67;
+    padding: 5px 40px;
+    border: black;
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    font-size: 2rem;
+}
+
+.btn-play {
+    position: fixed;
+    margin-left: 60%;
+    margin-top: 35%;
+    box-shadow: 1px 2px 5px black;
+}
+
+.soal-container {
+    width: 100%;
+    text-align: center;
+}
+
+.img-soal {
+    width: 500px;
+    height: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-soal {
+    width: 30%;
+    height: 50px;
+    font-size: 2rem ;
+}
+
+.btn-answer {
+    height: 50px;
+}
+
+.wrong-answer-notice {
+    color: red;
+    font-size: 2rem;
+}
